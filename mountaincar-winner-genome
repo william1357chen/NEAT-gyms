@@ -1,0 +1,13 @@
+digraph {
+	node [fontsize=9 height=0.2 shape=circle width=0.2]
+	"Cart Position" [fillcolor=lightgray shape=box style=filled]
+	"Cart Velocity" [fillcolor=lightgray shape=box style=filled]
+	"Power Coefficient" [fillcolor=lightblue style=filled]
+	2236 [fillcolor=white style=filled]
+	228 [fillcolor=white style=filled]
+	"Cart Velocity" -> "Power Coefficient" [color=green penwidth=1.2960895415175608 style=solid]
+	"Cart Velocity" -> 228 [color=red penwidth=0.23001423789219846 style=solid]
+	228 -> 2236 [color=red penwidth=0.22546957320631894 style=solid]
+	2236 -> "Power Coefficient" [color=red penwidth=0.18264628775940808 style=solid]
+	"Cart Velocity" -> 2236 [color=red penwidth=0.16044414723692213 style=solid]
+}
